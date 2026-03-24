@@ -1,9 +1,21 @@
-# 📦 Inventory Management System (IMS)
+# 📦 Inventory Management System (StockWise)
 
 ## 📖 Overview
 
-The Inventory Management System (IMS) is built using **Python and Tkinter** with **MySQL database integration**.
+The Inventory Management System (IMS) is built using **Python (Tkinter)** and **MySQL**.
 It allows management of employees, products, categories, and suppliers, along with billing functionality.
+
+---
+
+## 🧠 Key Highlights
+
+* Desktop-based Inventory System using Tkinter
+* Full CRUD operations (Employee, Product, Supplier, Category)
+* Role-based login system (Admin & Employee)
+* Integrated Billing System with QR Code generation
+* 🔍 Advanced search functionality across all modules
+
+---
 
 ## 🚀 Features
 
@@ -11,7 +23,7 @@ It allows management of employees, products, categories, and suppliers, along wi
 
 * 🛡️ **Role-Based Access:**
 
-  * **Admin:** Full control (employees, products, categories, suppliers, reports)
+  * **Admin:** Full access to manage system
   * **Employee:** Access to billing system
 
 * 📊 **CRUD Operations:**
@@ -29,19 +41,45 @@ It allows management of employees, products, categories, and suppliers, along wi
   * Search Categories
   * Search Products
 
+---
+
+## 💻 Installation and Setup
+
+### Clone the repository:
+
+```bash
+git clone https://github.com/Prabal24/Stockwise-inventory-management-system.git
+cd Stockwise-inventory-management-system
+```
+
+### Install dependencies:
+
+```bash
+pip install pymysql pillow qrcode tkcalendar
+```
+
+### Run the project:
+
+```bash
+python login.py
+```
+
+---
 
 ## ⚙️ Usage
 
 ### 🔰 First Time Setup
 
-* If database is empty, create admin user
+* Create admin user if database is empty
 * Login using Employee ID and Password
+
+---
 
 ## 🔐 Login System
 
 ![Login](screenshots/login.png)
 
-Handles user login with:
+Handles user login:
 
 * Employee ID
 * Password
@@ -50,6 +88,8 @@ After login:
 
 * Admin → Dashboard
 * Employee → Billing
+
+---
 
 ## 📊 Dashboard (Admin Only)
 
@@ -63,13 +103,17 @@ Provides access to:
 * Categories
 * Sales Overview
 
+---
+
 ## 👨‍💼 Manage Employees
 
 ![Employee](screenshots/employee.png)
 
 * Add / Update / Delete Employees
 * Search Employees
-* Manage employee details
+* Manage employee records
+
+---
 
 ## 📦 Manage Products
 
@@ -79,12 +123,16 @@ Provides access to:
 * Track stock
 * Search products
 
+---
+
 ## 📂 Manage Categories
 
-![Category](screenshots/product.png)
+![Category](screenshots/category.png)
 
 * Add / Delete categories
 * View category list
+
+---
 
 ## 🏢 Manage Suppliers
 
@@ -93,27 +141,35 @@ Provides access to:
 * Add / Update / Delete suppliers
 * Maintain supplier records
 
+---
+
 ## 🧾 Billing System (Employee)
 
 ![Billing](screenshots/bill.png)
 
 * Generate customer bills
 * Add products to cart
-* Auto calculation
+* Automatic calculations
 * QR code generation
+
+---
 
 ## 📌 Future Enhancements
 
 * Export reports (PDF/Excel)
 * Web-based version (Flask/Django)
 * Barcode scanning
-* Analytics dashboard
+* Advanced analytics dashboard
+
+---
 
 ## 👨‍💻 Author
 
-Prabal Jain
+**Prabal Jain**
 
 🔗 GitHub: https://github.com/Prabal24
+
+---
 
 ## ⭐ Support
 
